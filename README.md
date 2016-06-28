@@ -8,4 +8,5 @@ You can create fresh nulls super efficiently like this:
 
 ```
 var myNull = new NullFactory().Create();
+var myTypedNull = new NullFactory().Create<MyClass>();
 ```
