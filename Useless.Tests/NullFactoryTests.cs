@@ -3,6 +3,7 @@
     using Microsoft.VisualStudio.TestTools.UnitTesting;
     using System;
     [TestClass]
+
     public class NullFactoryTests
     {
         private NullFactory obj;
