@@ -25,3 +25,15 @@ class MyTripleton : Tripleton<MyTripleton>
 MyTripleton aRandomInstance = MyTripleton.Instance;
 MyTripleton anotherRandomInstance = MyTripleton.Instance;
 ```
+
+## FactoryFactory
+
+Use FactoryFactory to create a factory for any type you want.
+
+```
+var intFactoryFactory = new FactoryFactory<int>();
+var myIntFactory = intFactoryFactory.Create();
+
+var int1 = myIntFactory.Create();
+var int2 = myIntFactory.Create();
+```
