@@ -40,6 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Factory.cs" />
+    <Compile Include="FactoryFactory.cs" />
     <Compile Include="Tripleton.cs" />
     <Compile Include="NullFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
